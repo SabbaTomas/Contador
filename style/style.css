@@ -27,9 +27,13 @@ html {
 h3 {
   font-size: 4rem;
 }
-.contador_main {
+#contador_main {
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
+
+
 
 .btn_container {
   display: flex;
@@ -37,23 +41,23 @@ h3 {
 }
 
 .btn {
-    display: inline-block;
-    padding: 0.5em 1.7em;
-    margin: 0 0.1em 0.1em 0;
-    border: 0.16em solid rgb(255, 255, 255);
-    border-radius: 2em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #050505;
-    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
-    text-align: center;
-    transition: all 0.2s;
-  }
-  
-  .btn:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(121, 120, 120);
-    cursor: pointer;
-  }
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgb(255, 255, 255);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #050505;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(121, 120, 120);
+  cursor: pointer;
+}
